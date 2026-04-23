@@ -1,0 +1,137 @@
+#form-section {
+  background-color: var(--color-sektion-bg);
+  padding: 1rem;
+}
+#form-info p {
+  padding-block: 1rem;
+}
+p.optional {
+  font-size: var(--font-figcaption-size);
+  font-weight: 200;
+  opacity: 0.6;
+}
+
+#form-summary {
+  background-color: var(--color-sektion-bg);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+  h2 {
+    text-align: center;
+    background-color: var(--headline-bg-color-inverted);
+    color: var(--headline-color-inverted);
+    line-height: 1.25;
+  }
+  p {
+    margin-block: 0.5rem 1rem;
+  }
+  button {
+    justify-self: center;
+    margin-block: 1rem;
+  }
+  svg {
+    background-color: var(--color-sektion-panel-bg);
+    border: var(--border);
+    border-radius: var(--border-radius);
+  }
+}
+#SpeechBubbleTxt * {
+  align-content: center;
+}
+
+#webform {
+  display: grid;
+  gap: 1rem;
+  /* background-color: var(--color-sektion-panel-bg); */
+  /* border: var(--border); */
+  border-radius: var(--border-radius);
+}
+.form_group {
+  display: grid;
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  #first_name,
+  #alive,
+  #dead,
+  #accessory_select,
+  #speech_bubble {
+    background: var(--color-sektion-panel-bg);
+    border: 1px solid var(--color-highlight015);
+    border-radius: var(--border-radius);
+    accent-color: var(--color-accentcolor);
+    border: var(--border);
+    padding: 0.5rem;
+    margin-block: 0.5rem;
+  }
+  #fish_color {
+    border: var(--border);
+    border-radius: 5px;
+    margin-block: 0.5rem;
+    cursor: pointer;
+  }
+}
+/* option:hover,
+option:focus {
+  background: var(--color-highlight015);
+} */
+#accessory_select {
+  cursor: pointer;
+  option {
+    padding: 0.5rem;
+    background: var(--color-sektion-bg);
+  }
+  option:hover,
+  option:focus {
+    background: var(--color-highlight015);
+  }
+}
+.form_group:hover,
+.form_group:focus-within,
+#accessory_select:hover {
+  background-color: var(--color-highlight015);
+}
+
+/* button:active {
+  scale: 0.98;
+} */
+/* Layout */
+
+label:has(input) {
+  display: flex;
+  align-items: center;
+  gap: 0.25rlh;
+  justify-self: start;
+}
+
+/* Pseudo-classes */
+:focus-visible {
+  border: var(--border);
+}
+::picker(select) {
+  border-radius: var(--border-radius);
+  border: var(--border);
+  background: var(--color-sektion-bg);
+}
+
+.error_message {
+  display: none;
+  color: var(--color-error);
+}
+/* .form_group:has(:required) {
+  label::after {
+    content: " *";
+    color: red;
+  }
+} */
+
+.form_group:has(:user-invalid) {
+  input {
+    outline: 2px solid var(--color-error);
+    border-color: var(--color-error);
+  }
+  .error_message {
+    display: block;
+  }
+  span.star {
+    color: var(--color-error);
+  }
+}

@@ -1,0 +1,130 @@
+:root {
+  /* Background color */
+  --color-bg: light-dark(var(--orange6), #202527);
+  --color-heading: light-dark(#415ac7, #ebf3dc);
+  /*
+light-dark*/
+  --color-sektion-bg: light-dark(var(--orange5), var(--blue6));
+  --color-sektion-panel-bg: light-dark(var(--orange6-02), var(--blue4));
+  --color-highlight: light-dark(#ebf3dc, rgba(131, 239, 228, 1));
+  --color-highlight01: light-dark(#ebf3dc, rgba(131, 239, 228, 0.1));
+  --color-highlight015: light-dark(rgba(249, 175, 55, 0.15), rgba(131, 239, 228, 0.15));
+
+  --border: 0.1rem solid light-dark(var(--orange3), #30b1b1);
+  --color-shadow: light-dark(#9c4b1f, #1e1e1e);
+  --outline: 0.2rem solid light-dark(#ebf3dc, #30b1b1);
+
+  --color-error: #af4a28;
+
+  --color-backdrop: light-dark(rgba(6, 88, 109, 0.5), rgba(30, 30, 30, 0.8));
+
+  --color-accentcolor: light-dark(var(--orange4), var(--blue1));
+  /* Button */
+  --color-btn: light-dark(#73e7dc, var(--orange3));
+  --color-btn-txt-border: light-dark(#ffffff, #fff5d9);
+
+  --color-btn-hover: light-dark(var(--blue2), #fdcd46);
+  --color-btn-txt-border-hover: light-dark(#cfefe9, #fff5d9);
+
+  --color-btn-active: light-dark(var(--blue3), #fea516);
+  --color-btn-txt-border-active: light-dark(#cfefe9, #fff5d9);
+  /* Headlines */
+  --color-headline-bg: light-dark(#ffab19, #118386);
+  --color-head-panel-bg: light-dark(#ffab19, #118386);
+
+  /* Tekst */
+  --color-text: light-dark(#202527, #cfefe9);
+  --color-text-inverted: light-dark(#fffae2, #202527);
+
+  /* orange */
+  --orange0: rgb(184, 64, 34);
+  --orange1: rgba(188, 113, 72, 1);
+  --orange2: rgba(202, 122, 64, 1);
+  --orange3: rgba(249, 175, 55, 1);
+  --orange3-04: rgba(249, 175, 55, 0.8);
+  --orange3-2: rgba(255, 171, 25, 1);
+  --orange4: rgba(253, 205, 70, 1);
+  --orange5: rgb(255, 230, 176);
+  --orange6: rgba(255, 245, 217, 1);
+  --orange6-02: rgba(255, 245, 217, 1);
+  /* blue */
+  --blue0: #cfefe9;
+  --blue1-01: rgba(131, 239, 228, 0.1);
+  --blue1-015: rgba(131, 239, 228, 0.15);
+  --blue1: #83efe4;
+  --blue2: #30b1b1;
+  --blue3-02: rgba(6, 88, 109, 0.2);
+  --blue3: #06586d;
+  --blue4: #12373b;
+  --blue5: #202527;
+  --blue6: #1a2d30;
+  --black: #1e1e1e;
+
+  --lightblue: #5ad1d7;
+  --darkblue: #356467;
+
+  /* Header background color */
+  --color-head-bg: light-dark(var(--orange3-2), #118386);
+  /* Logotype */
+  --color-logotype-bg: #2a2828;
+  --color-text-logotype: #c1bfb8;
+  --font-logotype-size: 1rem;
+
+  /* Infographic */
+
+  /* Global menu */
+  --color-menu-bg: light-dark(#f7802c, #118386);
+  /* Links */
+  --color-link-bg: #78766e;
+  --color-link-hover: #fff;
+  --color-link-active: #99958f;
+  --border-radius-links: 1px;
+
+  /* Andet tekst */
+  --followup-text-size: 1rem;
+
+  /*  Margins */
+  --margin-head-bottom: 5px;
+
+  /* Borders */
+  /*10px*/
+  --border-radius: 0.7rem;
+  /*Rund*/
+  --border-round: 2rem;
+
+  /* Padding */
+  --padding20-10: 1rem 0.5rem;
+  --padding10: 0.5rem;
+
+  /* Cards */
+  --color-card-bg: #e3e1d8;
+  --color-card-bg-inverted: #4d4e4f;
+  --color-cta-card-bg: #847f7e;
+  --color-cta-card-bg-inverted: #c0bfb9;
+
+  /* Fonts & font weights*/
+  --font-family-sans: "Averia Sans Libre";
+  --font-family-headlines: "Winky Sans";
+  --font-weight-black: 900;
+  --font-weight-bold: 700;
+  --font-weight-medium: 500;
+  --font-weight-regular: 300;
+  --font-weight-light: 200;
+  /*Font sizes*/
+  /* Headlines (size)*/
+  --font-h1-size: 3rem;
+  --font-h2-size: 2rem;
+  --font-h3-size: 1.5rem;
+  --font-p-size: 1rem;
+  --font-figcaption-size: 0.8rem;
+
+  /* Min max til layout */
+  --min-width-layout: 300px;
+  --max-width-layout: 1200px;
+  /* Infographics background colors*/
+
+  /* Form/Register */
+  /*Orange/Yellows*/
+
+  /*Padding & Margin*/
+}

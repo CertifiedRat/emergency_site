@@ -1,0 +1,25 @@
+@import url("https://fonts.googleapis.com/css2?family=Averia+Sans+Libre:wght@300;400;700&family=DynaPuff:wdth,wght@75..100,400..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Winky+Sans:ital,wght@0,300..900;1,300..900&display=swap");
+
+@font-face {
+  font-family: "Rubik";
+  src:
+    url("../fonts/Rubik-VariableFont_wght.woff2") format("woff2-variations"),
+    url("/fonts/Rubik-Regular.woff") format("woff");
+  font-weight: 200 700;
+  font-style: normal;
+}
+.dynapuff {
+  font-family: "DynaPuff", system-ui;
+  font-optical-sizing: auto;
+  font-weight: 400 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 75 82.5 100;
+}
+/* 
+.winky-sans {
+  font-family: "Winky Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
+} */

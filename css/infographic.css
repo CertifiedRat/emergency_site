@@ -1,0 +1,49 @@
+#head-txt {
+  fill: rgb(54, 54, 54);
+}
+.info-graphic,
+.info-text {
+  background-color: var(--color-sektion-bg);
+  border-radius: var(--border-radius);
+  padding: 1rem;
+}
+
+.info-graphic svg {
+  width: 100%;
+  background-color: var(--color-sektion-panel-bg);
+  border-radius: var(--border-radius);
+  padding: 10%;
+}
+/* .info-text {
+  margin-right: 20px;
+} */
+.info-text {
+  h2 {
+    line-height: 4rem;
+    text-align: center;
+    background-color: var(--color-headline-bg);
+    color: var(--color-text);
+    border-radius: var(--border-radius) var(--border-radius) 0 0;
+  }
+  .info-text h3 {
+    font-size: 0.8rem;
+    line-height: 0.8rem;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+  }
+  p {
+    padding: 0;
+  }
+}
+.info-text > *:not(:first-child) {
+  background-color: var(--color-sektion-panel-bg);
+  padding: var(--padding10);
+}
+
+.info-box img {
+  border-radius: var(--border-radius);
+}
+.info-box:nth-of-type(2n) {
+  border-radius: 0 0 var(--border-radius) var(--border-radius);
+}
